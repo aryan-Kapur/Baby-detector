@@ -1,0 +1,46 @@
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body {
+    background-image: url("https://images4.newscred.com/Zz1kNmFkYmFmNzhlNGIxMWViYTU1ZDFmYjg0ZWI5MTc4Zg==");
+    font-family: 'Poppins', sans-serif;
+}
+
+    header {
+        line-height: 30px;
+        text-align: center;
+        background-color: aquamarine;
+        font-weight: 700;
+        height: 30px;
+    }
+
+        .status {
+            font-weight: 700;
+            text-align: center;        }
+    
+            .baby_detecter {
+                width: 190px;
+                height: 30px;
+                background-color: lightblue;
+                border-color: transparent;
+                border-radius: 9px;
+                transition: 0.5s ease-in-out;
+                margin-left: 45%;
+                font-weight: 700;
+            }
+            .baby_detecter:hover {
+                background-color: lightseagreen;
+                color: #fff;
+            }
+
+        canvas {
+            box-shadow: rgb(lightblue, lightgreen, lightyellow);
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+    .warning {
+        position: absolute;
+        margin-top: 35%;
+        margin-left: 35%;
+        font-size: 18px;
+        font-weight: 700;
+    }
